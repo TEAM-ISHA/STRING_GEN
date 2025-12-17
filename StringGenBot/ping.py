@@ -45,11 +45,11 @@ async def ping_handler(client: Client, message: Message):
 ➥ ᴘᴏɴɢ: `{latency:.3f} ms`
 ➥ ᴜᴘᴛɪᴍᴇ: {uptime}
 
-⦿ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [sʜɪᴠᴀɴsʜ-xᴅ](https://t.me/ITSZ_SHIVANSH)**""",
+⦿ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [˹ɪsʜᴀ ꭙ ᴛᴏxɪᴄ˼](https://t.me/Isha_bots)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+                    InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+mr41Uo_5COViNGM1"),
                     InlineKeyboardButton("🗑️ ᴄʟᴏsᴇ", callback_data="close_ping")
                 ]
             ]
