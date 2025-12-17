@@ -23,7 +23,7 @@ async def start(bot: Client, msg: Message):
     START_BTN = [
         [InlineKeyboardButton("⌨️ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ", callback_data="generate")],
         [
-            InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+            InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+mr41Uo_5COViNGM1"),
             InlineKeyboardButton("💻 ᴏᴡɴᴇʀ", user_id=OWNER_ID),
         ],
         [InlineKeyboardButton("📘 ɢᴜɪᴅᴇ", callback_data="guide")]
@@ -59,7 +59,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=GUIDE_TXT,
             reply_markup=InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+                    InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+mr41Uo_5COViNGM1"),
                     InlineKeyboardButton("🪧 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATE_CHANNEL}"),
                 ],
                 [InlineKeyboardButton("⬅️ ʙᴀᴄᴋ", callback_data="start_menu")]
@@ -82,7 +82,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         START_BTN = [
             [InlineKeyboardButton("⌨️ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ", callback_data="generate")],
             [
-                InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+                InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+mr41Uo_5COViNGM1"),
                 InlineKeyboardButton("💻 ᴏᴡɴᴇʀ", user_id=OWNER_ID),
             ],
             [InlineKeyboardButton("📘 ɢᴜɪᴅᴇ", callback_data="guide")]
